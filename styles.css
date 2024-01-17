@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+h2 {
+  font-size: 3em;
+  color: firebrick;
+}
+
+.info {
+  margin: 100px;
+}
+
+.reset-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.reset-page button {
+  /* border: none; */
+  padding: 0; /* Remove default padding */
+  background: none; /* Remove default background */
+  cursor: pointer;
+  border-color: firebrick;
+}
+.container {
+  height: 700px;
+  width: 700px;
+  display: flex;
+  justify-content: center;
+
+  border: 1px solid firebrick;
+}
+
+.grid-row {
+  display: flex;
+  align-items: center;
+}
+
+.grid-box {
+  background-color: white;
+}
